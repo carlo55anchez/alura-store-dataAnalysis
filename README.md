@@ -39,7 +39,6 @@ Este proyecto analiza datos de ventas de las cuatro tiendas de Alura Store para 
 
 Instala las dependencias con:
 ```bash
-pip install pandas matplotlib
 
 pip install pandas matplotlib
 
