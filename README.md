@@ -1,6 +1,6 @@
 # Análisis de Datos de Alura Store
 
-Este proyecto analiza las cuatro tiendas de Alura Store para recomendar cuál vender, ayudando al Sr. Juan con su nuevo emprendimiento. Se usaron datos de ventas para evaluar ingresos, categorías, calificaciones, productos y costos de envío, con un cuaderno en Google Colab.
+Este proyecto analiza las cuatro tiendas de Alura Store para recomendar cuál vender, ayudando al Sr. Juan con su nuevo emprendimiento. Se usaron datos de ventas para evaluar ingresos, categorías, calificaciones, productos, costos de envío y distribución geográfica, con un cuaderno en Google Colab.
 
 ## ¿Qué contiene?
 El cuaderno `Alura_Store_Analysis.ipynb` incluye:
@@ -13,7 +13,7 @@ El cuaderno `Alura_Store_Analysis.ipynb` incluye:
 1. Abre `Alura_Store_Analysis.ipynb` en [Google Colab](https://colab.research.google.com).
 2. Ejecuta las celdas en orden:
    - Carga los datos.
-   - Calcula ingresos, categorías, calificaciones, productos y costos.
+   - Calcula ingresos, categorías, calificaciones, productos, costos y análisis geográfico.
    - Genera gráficos.
    - Lee el informe final.
 3. No necesitas descargar los CSV; los datos se cargan desde URLs.
@@ -24,13 +24,14 @@ El cuaderno `Alura_Store_Analysis.ipynb` incluye:
 - **Calificaciones**: Tienda 3 sobresale (4.05); Tienda 1 es la más baja (3.98).
 - **Productos**: Destacan Microondas (Tienda 1, 60 ventas) y Cama box (Tienda 4, 62 ventas).
 - **Costos de envío**: Tienda 4 tiene el menor costo ($23,459.46), pero no compensa otras áreas.
+- **Geografía**: Ventas concentradas en Bogotá (~980-990) y Medellín (~560-590). Tienda 4 tiene menos ventas en Pereira (122) y Cúcuta (32), mostrando un alcance regional más débil.
 
 ## Recomendación
-Se sugiere vender la **Tienda 4** por sus bajos ingresos, calificaciones promedio (4.00) y menor variedad en categorías, lo que la hace menos competitiva frente a Tienda 1, 2 y 3.
+Se sugiere vender la **Tienda 4** por sus bajos ingresos, calificaciones promedio (4.00), menor variedad en categorías y menor presencia en algunas ciudades, lo que la hace menos competitiva frente a las Tiendas 1, 2 y 3.
 
 ## Herramientas
 - **Python** con Pandas y Matplotlib.
 - **Google Colab** para ejecutar el análisis.
 
 ## Notas
-Desarrollado para el desafío de Alura Latam, con datos procesados y visualizados para tomar decisiones claras.
+Desarrollado para el desafío de Alura Latam, procesando datos para decisiones claras.
