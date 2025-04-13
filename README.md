@@ -41,6 +41,8 @@ Instala las dependencias con:
 ```bash
 pip install pandas matplotlib
 
+pip install pandas matplotlib
+
 Cómo Ejecutar
 Abre el archivo Alura_Store_Analysis.ipynb en Google Colab.
 Ejecuta las celdas en orden:
